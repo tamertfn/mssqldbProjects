@@ -1,4 +1,7 @@
-﻿CREATE OR ALTER PROCEDURE GenerateTestData
+﻿USE PerformanceTestDB;
+GO
+
+CREATE OR ALTER PROCEDURE GenerateTestData
     @RecordCount INT
 AS
 BEGIN

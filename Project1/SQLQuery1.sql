@@ -1,9 +1,3 @@
-USE master;
-GO
-
-DROP DATABASE IF EXISTS PerformanceTestDB;
-GO
-
 CREATE DATABASE PerformanceTestDB;
 GO
 
